@@ -3,14 +3,14 @@
 <body>
 <ul>
 <?php
-    $getal1 = 1;
-    $getal1 += 1;
+    $getal1 = 5;
+    $getal1 += 2;
     echo "<li>$getal1<li>";
-    $getal1 -= 1;
+    $getal1 -= 2;
     echo "<li>$getal1<li>";
-    $getal1 *= 1;
+    $getal1 *= 2;
     echo "<li>$getal1<li>";
-    $getal1 /= 1;
+    $getal1 /= 2;
     echo "<li>$getal1<li>";
 ?>
 </ul>
