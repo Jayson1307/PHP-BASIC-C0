@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-<ul>
 <?php
-
+    $test = "aids";
+    echo var_dump($test);
 ?>   
-</ul>
 </body>
 
 </html>
