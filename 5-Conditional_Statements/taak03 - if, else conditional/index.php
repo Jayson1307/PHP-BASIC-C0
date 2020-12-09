@@ -27,7 +27,7 @@
             echo "<li>test 1 is goter dan test 2</li>";
         }
         else{
-            "<li>test1 is niet groter dan test 2</li>";
+            echo "<li>test1 is niet groter dan test 2</li>";
         }
         if($test1 < $test2) {
             echo "<li>test 1 is kleiner dan test 2</li> ";
