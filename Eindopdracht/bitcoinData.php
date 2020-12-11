@@ -15,9 +15,7 @@
 /*******************************************************************************************************************/
 /******************************************* OPDRACHT 2 doe je hieronder *******************************************/
 
-/* 
- * Opdracht 2: Zet hier de $buttons array neer 
- */
+$button = [80, 155, 99,99];
 
 
 /******************************************* OPDRACHT 2 doe je hierboven *******************************************/
@@ -39,6 +37,11 @@ function calculateBitcoinAmount()
     if (isset($_GET['euro'])) {
         $euro = (int)$_GET['euro']; //Dit blokje code (if-statement) kun je laten staan.
     }
+    if ($button){
+        return $button*$
+    }
+    
+
 
     //SCHRIJF JE CODE.
 
