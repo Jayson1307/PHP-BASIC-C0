@@ -43,7 +43,7 @@ function calculateBitcoinAmount()
 
     $btc_total =  $euro / $btc_waarde;
 
-    echo $btc_total;
+    return $btc_total;
 }
 /******************************************* OPDRACHT 3 doe je hierboven *******************************************/
 /*******************************************************************************************************************/
@@ -85,9 +85,9 @@ if (isset($_GET['euro'])) {
 
     $btc_waarde = getBitcoinPrice();
 
-    $btc_total = $euro / $btc_waarde;
+    
 
-    array_push($transactions,[$btc_waarde, $euro, $btc_total]);
+    array_push($transactions,[$btc_waarde, $euro, calculateBitcoinAmount()]);
 }
 
 
